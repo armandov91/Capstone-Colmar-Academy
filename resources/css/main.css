@@ -5,6 +5,7 @@ html,body {
 
 }
 
+/* Classes are written in this format: <parent_name>-<child_section_name>-.... */
 .site_container {
   width: 80%;
   margin: auto;
