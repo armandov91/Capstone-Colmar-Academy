@@ -6,7 +6,7 @@ html,body {
 }
 
 .site_container {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -15,6 +15,7 @@ html,body {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
+  overflow: hidden;
   border: 1px solid red;
 }
 
@@ -42,7 +43,7 @@ html,body {
 }
 
 .header-banner_section {
-  padding: 2rem 1.5rem;
+  padding: 2rem 0 2rem 1.5rem;
   background-color: lightgrey;
   display: flex;
 
@@ -59,17 +60,20 @@ html,body {
 }
 
 .header-banner_section-engage_section {
+  width: 40%;
   margin-left: 1.5rem;
   border: 1px solid blue;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 .header-banner_section-engage_section-container {
+  width: 90%;
   border: 1px solid magenta;
 }
 
 .header-banner_section-engage_section h1{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 
@@ -90,4 +94,104 @@ html,body {
   color: white;
   height: 100%;
   border: 1px solid red;
+}
+
+/* Body Styling */
+
+main {
+  border: 1px solid blue;
+}
+
+.body_container {
+  display: flex;
+  padding: 2rem 0 2rem 1.5rem;
+}
+
+.body_container-left_section {
+  width: 60%;
+  margin-right: 1.5rem;
+  border: 1px solid red;
+}
+
+.body_container-left_section-image_container {
+}
+
+.body_container-left_section-image_container img {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.body_container-left_section-text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.body_container-left_section-text p {
+  font-weight: 300;
+}
+.body_container-left_section-text span {
+  display: inline-block;
+  margin: 2rem 0;
+}
+
+/* Body Right Section */
+.body_container-right_section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+}
+
+.body_container-right_section-info_container {
+  display: flex;
+  padding: 1rem;
+  height: 25%;
+}
+
+.body_container-right_section-info_container:hover {
+  background-color: lightgrey;
+}
+.body_container-right_section-info_container-image1 {
+  width: 35%;
+  margin-right: 1rem;
+  height: auto;
+  background-image: url("../images/information-orientation.jpg");
+  background-size: cover;
+}
+
+.body_container-right_section-info_container-image2 {
+  width: 35%;
+  margin-right: 1rem;
+  height: auto;
+  background-image: url("../images/information-campus.jpg");
+  background-size: cover;
+}
+
+.body_container-right_section-info_container-image3 {
+  width: 35%;
+  margin-right: 1rem;
+  height: auto;
+  background-image: url("../images/information-guest-lecture.jpg");
+  background-size: cover;
+}
+
+.body_container-right_section-info_container-text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.body_container-right_section-info_container-text h3 {
+  font-size: 1.3rem;
+}
+
+.body_container-right_section-info_container-text p {
+  margin: 0.5rem 0;
+  font-weight: 300;
+}
+
+.body_container-right_section-info_container-text a {
+  color: dodgerblue;
 }
