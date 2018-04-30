@@ -195,3 +195,63 @@ main {
 .body_container-right_section-info_container-text a {
   color: dodgerblue;
 }
+
+/* Learning Section */
+
+.learning_container {
+  background-color: lightgrey;
+  padding-top: 2rem;
+}
+
+.learning_container-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: lightgrey;
+}
+
+.learning_container-categories_container {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 2rem 4.5rem;
+}
+
+.learning_container-categories_container-category {
+  width: 30%;
+  margin-bottom: 2rem;
+  background-color: white;
+  display: inline-block;
+}
+
+.right-margin {
+  margin-right: 2rem;
+}
+
+.learning_container-categories_container-category-mobile-container {
+  display: none;
+}
+
+.learning_container-categories_container-category-desktop_container-category_container img {
+  width: 100%;
+  height: auto;
+}
+
+.learning_container-categories_container-category-desktop_container-category_container-text {
+padding: 1rem 0 1.5rem 1rem;
+}
+
+.learning_container-categories_container-category-desktop_container-category_container h3 {
+font-size: 1.3rem;
+font-weight: bold;
+margin-bottom: 1rem;
+}
+
+.learning_container-categories_container-category-desktop_container-category_container h4 {
+font-weight: 300;
+margin: 0.5rem 0;
+}
+
+.learning_container-categories_container-category-desktop_container-category_container p {
+font-weight: 300;
+}
